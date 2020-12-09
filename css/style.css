@@ -10,6 +10,8 @@
 	--team-bg: #F5F4FA;
 	--filter-bg-color: #F5F4FA;
 	--gradient-color: rgba(47, 48, 58, 0.4);
+	--icon-footer-bg: rgba(255, 255, 255, 0.1);
+	--icon-team-color: #AFB1B8;
 }
 
 body {
@@ -340,12 +342,61 @@ nav li:not(:first-child) {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
+
+	margin-bottom: 16px;
 }
 
 .team-list {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*----------------------*/
+
+
+
+
+
+.social-list-team a {
+	display: flex;
+	padding: 0;
+}
+
+
+.social-list-team {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.social-list-team a {
+	display: flex;
+
+}
+
+.social-list-team li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #ffffff;
+	fill: var(--icon-team-color);
+}
+
+
+
+.social-list-team > li:hover {
+	background-color: var(--hero-button-bg);
+	fill: var(--hero-text-color);
+}
+
+
+
+
+
+/*----------------------*/
 
 /*FOOTER*/
 
@@ -401,6 +452,63 @@ footer {
 	margin-bottom: 9px;
 }
 
+/*----------------*/
+
+.addres-box {
+	width: 231px;
+}
+
+.footer-box {
+	display: flex;
+}
+
+.social-links {
+	margin-left: 70px;
+	width: 206px;
+}
+
+.social-links > p {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	fill: var(--hero-text-color);
+}
+
+.social-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.social-list > li {
+	display: flex;
+	justify-content: center;
+   align-items: center;
+	width: 44px;
+	height: 44px;
+	background-color: var(--icon-footer-bg);
+	border-radius: 50%;
+}
+
+.social-list > li:hover {
+	background-color: var(--hero-button-bg);
+}
+
+
+
+/*---------------------*/
+
 
 /*стилизация портфолио*/
 
@@ -428,7 +536,7 @@ footer {
 a.activ {
 	color: var(--acent-text-color-navigation);
 }
-main a {
+.filters a {
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
@@ -440,8 +548,8 @@ main a {
 	border-radius: 4px;
 	padding: 6px 22px;
 }
-main a:hover,
-main a:focus {		
+.filters a:hover,
+.filters a:focus {		
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
