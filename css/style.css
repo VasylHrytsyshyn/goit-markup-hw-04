@@ -392,11 +392,55 @@ nav li:not(:first-child) {
 	fill: var(--hero-text-color);
 }
 
+/*regular-customers*/
 
 
+.regular-customers {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.regular-customers h2 {
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	color: var(--primary-text-color);
+}
+
+.regular-customers-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.regular-customers-list a {
+	display: flex;
+}
+
+.regular-customers-list  li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 170px;
+	height: 90px;
+	border: 1px solid var(--icon-team-color);
+	box-sizing: border-box;
+	border-radius: 4px;
+	fill:  #AFB1B8;
+	cursor: pointer;
+}
 
 
-/*----------------------*/
+.regular-customers-list  li:hover {
+	border-color: var(--hero-button-bg);
+	fill: var(--hero-button-bg);
+}
+/*end regular-customers*/
 
 /*FOOTER*/
 
