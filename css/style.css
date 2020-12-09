@@ -619,7 +619,7 @@ a.activ {
 	box-sizing: border-box;
 	width: 370px;
 
-	border: 1px solid #EEEEEE;
+	/*border: 1px solid #EEEEEE;*/
 }
 
 .project-card:hover {
